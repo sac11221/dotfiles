@@ -10,5 +10,5 @@ xss-lock -n /usr/lib/xsecurelock/dimmer -l -- env XSECURELOCK_PASSWORD_PROMPT=as
 xautolock -time 15 -locker "systemctl suspend" -detectsleep &
 flameshot &
 keepassxc &
-# nm-applet &
+nm-applet &
 autokey-qt

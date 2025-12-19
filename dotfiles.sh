@@ -1,6 +1,6 @@
 #!/bin/sh
 
-directories=(".icewm" ".vimrc")
+directories=(".icewm" ".vimrc" ".wezterm.lua")
 newdir="."
 olddir="old_dotfiles$(date +_%y%m%d_%H%M%S)"
 

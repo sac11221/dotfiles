@@ -6,3 +6,5 @@ rofi
 flameshot
 udiskie
 keepassxc
+nm-applet
+nerd-fonts-noto-sans-mono
