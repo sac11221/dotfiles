@@ -1,0 +1,8 @@
+icewm
+vim
+pcmanfm
+wezterm
+rofi
+flameshot
+udiskie
+keepassxc
