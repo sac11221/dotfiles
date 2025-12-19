@@ -8,7 +8,7 @@ mkdir $olddir
 
 for i in ${directories[@]}
 do
-	mv "~/$i" $olddir
-	mv $newdir/$i "~"
+	mv $HOME/$i $olddir
+	mv $newdir/$i $HOME
 done
 
