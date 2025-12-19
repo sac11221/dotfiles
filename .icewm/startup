@@ -1,0 +1,14 @@
+#! /bin/sh
+
+xrdb -merge ~/.Xdefaults &
+udiskie -t &
+# redshift -P -O 3750 &
+birdtray &
+vesktop -m &
+xset s 300 5 &
+xss-lock -n /usr/lib/xsecurelock/dimmer -l -- env XSECURELOCK_PASSWORD_PROMPT=asterisks XSECURELOCK_SHOW_KEYBOARD_LAYOUT=0 XSECURELOCK_AUTH_SOUNDS=1 xsecurelock &
+xautolock -time 15 -locker "systemctl suspend" -detectsleep &
+flameshot &
+keepassxc &
+# nm-applet &
+autokey-qt

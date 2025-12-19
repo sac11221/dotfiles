@@ -1,0 +1,152 @@
+ThemeDescription="Spoof IceWM Theme"
+ThemeAuthor="Marcus Moeller"
+
+Look=flat
+
+# Gradients
+Gradients="buttonA.xpm buttonI.xpm dialogbg.xpm logoutbg.xpm switchbg.xpm menubg.xpm menusel.xpm menusep.xpm taskbuttonactive.xpm taskbarbg.xpm taskbuttonbg.xpm taskbuttonminimized.xpm toolbuttonbg.xpm workspacebuttonbg.xpm workspacebuttonactive.xpm titleAB.xpm titleAS.xpm titleAT.xpm titleIB.xpm titleIS.xpm titleIT.xpm"
+
+MenuIconSize=24
+SmallIconSize=24
+LargeIconSize=32
+
+# Titlebar
+TitleBarHeight=24
+TitleBarJustify=50
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleButtonsSupported="xmis"
+ShowMenuButtonIcon=1
+RolloverButtonsSupported=1
+
+# Borders
+BorderSizeX=5
+BorderSizeY=5
+CornerSizeX=32
+CornerSizeY=32
+DlgBorderSizeX=5
+DlgBorderSizeY=5
+
+# General Colors
+ColorNormalButton="#909090" 
+ColorActiveButton="#909090"
+ColorActiveButtonText="#000000"
+ColorNormalButtonText="#000000"
+ColorActiveWorkspaceButtonText="#000000"
+ColorNormalWorkspaceButtonText="#000000"
+
+# Titlebar Colors
+ColorNormalBorder="#585858"
+ColorActiveBorder="#585858"
+ColorActiveTitleBar="#959393"
+ColorNormalTitleBar="#959393"
+ColorNormalTitleBarText="#888888"
+ColorActiveTitleBarText="#000000"
+#ColorActiveTitleBarShadow="#c0c0c0"
+#ColorNormalTitleBarShadow="#666666"
+
+# Menu Colors
+ColorNormalMenu="#f0f0f0"
+ColorActiveMenuItem="#9b9882"
+ColorNormalMenuItemText="#000000"
+ColorActiveMenuItemText="#ffffff"
+ColorDisabledMenuItemText="#BEBEBE"
+
+# Taskbar Colors
+ColorDefaultTaskBar="#959393"
+ColorNormalTaskBarApp="#C5C5C5"
+ColorNormalTaskBarAppText="#353535"
+ColorActiveTaskBarApp="#ffffff"
+ColorActiveTaskBarAppText="#000000"
+ColorMinimizedTaskBarApp="#c5c5c5"
+ColorMinimizedTaskBarAppText="#505050"
+ColorInvisibleTaskBarApp="#808080"
+ColorInvisibleTaskBarAppText="#000000"
+ColorNormalMinimizedWindow="#DFE0D8"
+ColorNormalMinimizedWindowText="#202020"
+ColorActiveMinimizedWindow="#6C6C6C"
+ColorActiveMinimizedWindowText="#ffffff"
+
+# Clock
+TaskBarClockLeds=0
+ColorClock=""
+ColorClockText="#000000"
+
+# Battery
+ColorApm=""
+ColorApmText="#000000"
+
+# CPU and Network Status
+ColorCPUStatusInterrupts=00ffff
+ColorCPUStatusIoWait=005500
+ColorCPUStatusUser=#00FF00
+ColorCPUStatusSystem=#BBFF00
+ColorCPUStatusNice=#0000ff
+ColorCPUStatusIdle=#000000
+ColorNetSend=#FFFF00
+ColorNetReceive=#FF0000
+ColorNetIdle=#000000
+
+# Window Movement Status
+
+ColorMoveSizeStatusText="#000000"
+
+# ToolTips
+ColorToolTip="#C5C5C5"
+ColorToolTipText="#000000"
+
+# Logout Dialog (ctrl-alt-del)
+ColorDialog="#f0f0f0"
+ColorLabel="#f0f0f0"
+ColorLabelText="#000000"
+
+# Windowlist (ctrl-alt-esc)
+ColorListBox="#ffffff"
+ColorListBoxText="#000000"
+ColorListBoxSelection="#839E69"
+ColorListBoxSelectionText="#ffffff"
+
+# Scrollbars
+ColorScrollBar="#ffffff"
+ColorScrollBarSlider=#839E69
+ColorScrollBarButton=#839E69
+ColorScrollBarButtonArrow=#ffffff
+ColorScrollBarInactiveArrow=#ffffff
+
+# Window Switcher (alt + tab)
+ColorQuickSwitch="#f0f0f0"
+ColorQuickSwitchText="#000000"
+ColorQuickSwitchActive="#839E69"
+
+# Task Launcher Inputbox (super + space)
+ColorInput="#f0f0f0"
+ColorInputText="#202020"
+ColorInputSelection="#839E69"
+ColorInputSelectionText="#202020"
+
+# Fonts
+TitleFontNameXft                =       sans-serif:size=12:bold
+MenuFontNameXft                 =       sans-serif:size=12
+MinimizedWindowFontNameXft      =       sans-serif:size=12
+ActiveButtonFontNameXft         =       sans-serif:size=12
+NormalButtonFontNameXft         =       sans-serif:size=12
+ToolButtonFontNameXft           =       sans-serif:size=12
+NormalWorkspaceFontNameXft      =       sans-serif:size=12
+ActiveWorkspaceFontNameXft      =       sans-serif:size=12
+QuickSwitchFontNameXft          =       sans-serif:size=12
+ListBoxFontNameXft              =       sans-serif:size=12
+StatusFontNameXft               =       sans-serif:size=12
+ToolTipFontNameXft              =       sans-serif:size=12
+ActiveTaskBarFontNameXft        =       sans-serif:size=11:bold
+NormalTaskBarFontNameXft        =       sans-serif:size=11
+ClockFontNameXft                =       sans-serif:size=14
+InputFontNameXft                =       sans-serif:size=12
+LabelFontNameXft                =       sans-serif:size=12
+ApmFontNameXft                  =       sans-serif:size=12
+
+# Desktop
+DesktopBackgroundImage="wallpaper.jpg"
+DesktopBackgroundColor=""       # Prevent IceWM showing a background color
+DesktopBackgroundCenter=0
+DesktopBackgroundScaled=1
+

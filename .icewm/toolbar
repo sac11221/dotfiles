@@ -1,0 +1,9 @@
+# This is an example for icewm toolbar definition file.
+# It will be installed as /usr/share/icewm/toolbar.
+# Place your variants in /usr/etc/icewm or in $HOME/.icewm since
+# modifications to this file will be overwritten when you reinstall icewm.
+#
+prog "Web browser" web-browser firefox
+prog "File Manager" system-file-manager pcmanfm
+prog "Terminal" utilities-terminal wezterm
+

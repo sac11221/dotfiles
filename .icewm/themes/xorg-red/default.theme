@@ -1,0 +1,149 @@
+ThemeDescription="Xorg theme based on Fullmoon by "Christian W. Zuckschwerdt <zany@triq.net>""
+ThemeAuthor="Francesco bat"
+Look=metal
+
+# title buttons
+
+TitleButtonsSupported="xmis"
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+
+TitleBarJustify="50"
+RolloverButtonsSupported=1
+
+# border & title bar
+
+TitleBarHeight=22
+BorderSizeX=2
+BorderSizeY=2
+CornerSizeX=22
+CornerSizeY=22
+DlgBorderSizeX=2
+DlgBorderSizeY=2
+
+# borders
+
+ColorNormalBorder="#333333"
+ColorActiveBorder="#000000"
+
+# titlebar
+
+ColorActiveTitleBar="#333333"
+ColorNormalTitleBar="#666666"
+ColorActiveTitleBarText="#F0F0F0"
+ColorNormalTitleBarText="#CCCCCC"
+
+# buttons
+
+ColorNormalButton="rgb:00/00/00"
+ColorNormalButtonText="rgb:EE/EE/EE"
+ColorActiveButton="rgb:33/33/33"
+ColorActiveButtonText="rgb:FF/FF/FF"
+
+# dialog
+
+ColorDialog="#000000"
+ColorLabel="#000000"
+ColorLabelText="ff0000"
+
+# menus
+
+ColorNormalMenu="#000000"
+ColorActiveMenuItem="#ff0000"
+ColorNormalMenuItemText="#ffffff"
+ColorActiveMenuItemText="#f0f0f0"
+ColorDisabledMenuItemText="#999999"
+#ColorDisabledMenuItemShadow="#CCCCCC"
+
+# move / size indicator
+
+ColorMoveSizeStatus="#EEEE99"
+ColorMoveSizeStatusText="#333333"
+
+# quick switch window
+ColorQuickSwitch="rgb:EE/EE/EE"
+ColorQuickSwitchText="rgb:33/33/33"
+ColorQuickSwitchActive="#000000"
+
+# tool tip
+
+ColorToolTip="#EEEE99"
+ColorToolTipText="#333333"
+
+# taskbar
+
+ColorDefaultTaskBar="#000000"
+ColorNormalTaskBarApp="#000000"
+ColorNormalTaskBarAppText="#f0f0f0"
+ColorActiveTaskBarApp="#333333"
+ColorActiveTaskBarAppText="#FFFFFF"
+ColorMinimizedTaskBarApp="#000000"
+ColorMinimizedTaskBarAppText="#b0b0b0"
+
+# listbox
+
+ColorListBox="#000000"
+ColorListBoxText="#ffffff"
+ColorListBoxSelection="#ff0000"
+ColorListBoxSelectionText="#f0f0f0"
+
+# scrollbar
+
+ColorScrollBar="rgb:00/00/00"
+ColorScrollBarSlider="rgb:ee/ee/ee"
+ColorScrollBarButton="rgb:cc/cc/cc"
+ColorScrollBarArrow="rgb:00/00/00"
+ColorScrollBarButtonArrow="rgb:f0/f0/f0"
+ColorScrollBarInactiveArrow="rgb:99/99/99"
+
+
+# input
+
+ColorInput="#CCCCCC"
+ColorInputText="#000000"
+ColorInputSelection="#FFFF00"
+ColorInputSelectionText="#FFFFFF"
+
+# label
+
+ColorLabel="#000000"
+ColorLabelText="#ffffff"
+
+# monitors
+
+TaskBarClockLeds=0
+ColorClock="#000000"
+ColorClockText="#ffffff"
+
+ColorCPUStatusUser="#ffffff"
+ColorCPUStatusSystem="#cc3333"
+# ColorCPUStatusInterrupts="rgb:FF/FF/00"
+# ColorCPUStatusIoWait="rgb:60/00/60"
+# ColorCPUStatusSoftIrq="rgb:00/FF/FF"
+ColorCPUStatusNice="#33cc33"
+ColorCPUStatusIdle="#333333"
+ColorNetSend="#ffffff"
+ColorNetReceive="#999999"
+ColorNetIdle="#333333"
+
+ColorApm="#333333"
+ColorApmText="#f0f0f0"
+
+# Desktop background color
+DesktopBackgroundColor="#000000"
+
+# Desktop background image
+DesktopBackgroundImage="34765-black-xorg.png"
+
+# Display desktop background centered and not tiled
+DesktopBackgroundCenter=1 # 0 / 1
+
+#  Resize desktop background to full screen.
+DesktopBackgroundScaled=0 # 0/1
+
+# font overrides -- bold titles, medium menus
+TitleFontName="-*-sans-bold-r-*-*-*-120-*-*-*-*-*-*"
+TitleFontNameXft="sans-serif:size=12:bold"
+MenuFontName="-*-sans-medium-r-*-*-*-120-*-*-*-*-*-*"
+MenuFontNameXft="sans-serif:size=12"
+

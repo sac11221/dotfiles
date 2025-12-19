@@ -1,0 +1,13 @@
+/* XPM */
+static char * dframeIB_xpm[] = {
+"1 5 5 1",
+" 	c None",
+".	c #BBB8A4",
+"+	c #CECBC0",
+"@	c #D3CFC2",
+"#	c #9B9882",
+".",
+"+",
+"@",
+"@",
+"#"};

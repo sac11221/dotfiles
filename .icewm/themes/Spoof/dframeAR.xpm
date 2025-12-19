@@ -1,0 +1,10 @@
+/* XPM */
+static char * dframeAR_xpm[] = {
+"5 1 6 1",
+" 	c None",
+".	c #BBB8A4",
+"+	c #CECBC0",
+"@	c #D3CFC2",
+"#	c #D4CFC3",
+"$	c #9B9882",
+".+@#$"};

@@ -1,0 +1,57 @@
+ThemeDescription="MyHelix"
+ThemeAuthor="sac11221"
+Look=gtk
+
+TitleBarHeight=35
+TitleButtonsLeft="s"
+TitleButtonsRight="xmi"
+TitleBarJustify=50
+ShowMenuButtonIcon=1
+MenuIconSize=32
+SmallIconSize=24
+LargeIconSize=32
+
+BorderSizeX=3
+BorderSizeY=3
+ColorNormalBorder = "#444444"
+ColorActiveBorder = "#666666"
+
+TaskBarClockLeds=0
+ColorClock=""
+ColorClockText="#ffffff"
+
+ColorDefaultTaskBar = "#000033"
+ColorNormalButton = "#000033"
+ColorNormalButtonText = "#ffffff"
+ColorNormalTaskBarApp = "#000033"
+ColorNormalTaskBarAppText = "#ffffff"
+ColorActiveTaskBarApp = "#000070"
+ColorActiveTaskBarAppText = "#ffffff"
+ColorActiveWorkspaceButton = "#0000a0"
+ColorActiveWorkspaceButtonText = "#ffffff"
+ColorMoveSizeStatus = "#0000a0"
+ColorMoveSizeStatusText = "#ffffff"
+
+DesktopBackgroundImage="wallpaper.jpg"
+DesktopBackgroundColor=""       # Prevent IceWM showing a background color
+DesktopBackgroundCenter=0
+DesktopBackgroundScaled=1
+
+TitleFontNameXft                =       sans-serif:size=11:bold
+MenuFontNameXft                 =       sans-serif:size=12
+MinimizedWindowFontNameXft      =       sans-serif:size=12
+ActiveButtonFontNameXft         =       sans-serif:size=12
+NormalButtonFontNameXft         =       sans-serif:size=12
+ToolButtonFontNameXft           =       sans-serif:size=12
+NormalWorkspaceFontNameXft      =       sans-serif:size=12
+ActiveWorkspaceFontNameXft      =       sans-serif:size=12:bold
+QuickSwitchFontNameXft          =       sans-serif:size=10
+ListBoxFontNameXft              =       sans-serif:size=12
+StatusFontNameXft               =       sans-serif:size=12
+ToolTipFontNameXft              =       sans-serif:size=12
+ActiveTaskBarFontNameXft        =       sans-serif:size=11:bold
+NormalTaskBarFontNameXft        =       sans-serif:size=11
+ClockFontNameXft                =       sans-serif:size=11:bold
+InputFontNameXft                =       sans-serif:size=12
+LabelFontNameXft                =       sans-serif:size=12
+ApmFontNameXft                  =       sans-serif:size=12
