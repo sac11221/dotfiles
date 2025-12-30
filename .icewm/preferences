@@ -617,7 +617,7 @@ OpaqueResize=0 # 0/1
 # OpenCommand=""
 
 #  Draw border around workspace buttons (if PagerShowPreview=1)
-# PagerShowBorders=1 # 0/1
+PagerShowBorders=0 # 0/1
 
 #  Show workspace name label on workspace button (if PagerShowPreview=1)
 # PagerShowLabels=1 # 0/1
@@ -842,13 +842,13 @@ TaskBarAtTop=1 # 0/1
 # TaskBarNetDelay=500 # [10-3600000]
 
 #  Enable TaskBarShowAPMStatus if a battery is present.
-TaskBarShowAPMAuto=0 # 0/1
+TaskBarShowAPMAuto=1 # 0/1
 
 #  Show battery status in graph mode.
-TaskBarShowAPMGraph=0 # 0/1
+TaskBarShowAPMGraph=1 # 0/1
 
 #  Show battery status monitor on task bar.
-# TaskBarShowAPMStatus=0 # 0/1
+TaskBarShowAPMStatus=0 # 0/1
 
 #  Show battery status on task bar in time-format.
 TaskBarShowAPMTime=0 # 0/1
@@ -920,7 +920,7 @@ TaskBarShowWindowListMenu=0 # 0/1
 # TaskBarWorkspacesTop=0 # 0/1
 
 #  default number of tasks in taskbar.
-# TaskbarButtonWidthDivisor=3 # [1-50]
+TaskbarButtonWidthDivisor=4 # [1-50]
 
 #  Terminal emulator must accept -e option.
 TerminalCommand="kitty"
@@ -965,7 +965,7 @@ TimeFormat="%d %B %Y - %H:%M:%S"
 #  The list of items to be supported in the menu window (rmsnxfhualytieckw)
 # WinMenuItems="rmsnxfhualytiecw"
 
-#  Add a workspace.
+#  Add a workspace.  WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 ", " 5 " , " 6 ", " 7 ", " 8 "
 WorkspaceNames=" 1 ", " 2 ", " 3 ", " 4 "
 
 #  Time before workspace status window is hidden in ms.

@@ -4,7 +4,12 @@ pcmanfm
 wezterm
 rofi
 flameshot
+firefox
 udiskie
 keepassxc
 nm-applet
 nerd-fonts-noto-sans-mono
+
+// For faster internet
+// then: # iw reg set IT
+wireless-regdb

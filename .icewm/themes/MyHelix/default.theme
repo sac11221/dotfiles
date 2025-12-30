@@ -1,6 +1,6 @@
 ThemeDescription="MyHelix"
 ThemeAuthor="sac11221"
-Look=gtk
+Look=flat
 
 TitleBarHeight=35
 TitleButtonsLeft="s"
@@ -20,17 +20,24 @@ TaskBarClockLeds=0
 ColorClock=""
 ColorClockText="#ffffff"
 
-ColorDefaultTaskBar = "#000033"
-ColorNormalButton = "#000033"
+ColorNormalButton = ""
+ColorActiveButton = ""
 ColorNormalButtonText = "#ffffff"
-ColorNormalTaskBarApp = "#000033"
+
+ColorDefaultTaskBar = ""
+ColorNormalTaskBarApp = ""
 ColorNormalTaskBarAppText = "#ffffff"
-ColorActiveTaskBarApp = "#000070"
+ColorActiveTaskBarApp = ""
 ColorActiveTaskBarAppText = "#ffffff"
-ColorActiveWorkspaceButton = "#0000a0"
+ColorMinimizedTaskBarApp = ""
+ColorMinimizedTaskBarAppText = "#aaaaaa"
+
+ColorActiveWorkspaceButton = ""
 ColorActiveWorkspaceButtonText = "#ffffff"
-ColorMoveSizeStatus = "#0000a0"
+
+ColorMoveSizeStatus = ""
 ColorMoveSizeStatusText = "#ffffff"
+ColorApm = ""
 
 DesktopBackgroundImage="wallpaper.jpg"
 DesktopBackgroundColor=""       # Prevent IceWM showing a background color

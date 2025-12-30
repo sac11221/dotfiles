@@ -6,9 +6,13 @@ udiskie -t &
 birdtray &
 vesktop -m &
 xset s 300 5 &
-xss-lock -n /usr/lib/xsecurelock/dimmer -l -- env XSECURELOCK_PASSWORD_PROMPT=asterisks XSECURELOCK_SHOW_KEYBOARD_LAYOUT=0 XSECURELOCK_AUTH_SOUNDS=1 xsecurelock &
+xss-lock -n /usr/lib/xsecurelock/dimmer -l -- env XSECURELOCK_NO_COMPOSITE=1 XSECURELOCK_PASSWORD_PROMPT=asterisks XSECURELOCK_SHOW_KEYBOARD_LAYOUT=0 XSECURELOCK_AUTH_SOUNDS=1 xsecurelock &
 xautolock -time 15 -locker "systemctl suspend" -detectsleep &
 flameshot &
 keepassxc &
 nm-applet &
+# xinput set-prop "10" "libinput Click Method Enabled" 0 1 & 
+# xinput set-prop "10" "libinput Tapping Enabled" 1 &
+# setxkbmap -option ctrl:swapcaps &
+xcompmgr -n & 
 autokey-qt

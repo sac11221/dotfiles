@@ -1,3 +1,4 @@
 xset a activate
 xset s activate
 flameshot gui
+pavucontrol
